@@ -1,0 +1,277 @@
+html, body {
+    height: 100%;
+    width: 100%;
+      background: #000;
+      font-size: 18px;
+    font-family: 'Tahoma';
+    line-height: 22px;
+      margin: 0px;
+  }
+  
+  @counter-style newlist {
+    system: fixed;
+    symbols: '15' '14' '13' '12' '11' '10' ' 9' ' 8' ' 7' ' 6' ' 5' ' 4' ' 3' ' 2' ' 1';
+    suffix: ' ';
+  }
+  
+  .top {
+      padding:80px 0;
+      display: flex;
+      width: 1024px;
+      margin: 0 auto;
+  }
+  
+  .left {
+      flex:1;
+  }
+  
+  .center {
+      flex:1;
+  }
+  .help {
+      display: flex;
+      justify-content: center
+  }
+  .help a {
+      display: block;	
+      width:74px;
+      height:60px;
+      margin: 20px 4px;
+  }
+  
+  .fifty {
+      background: url("https://wwbm.com/images/butt_sprite.webp") 250px 60px;
+  }
+  .fifty:hover {
+      background: url("https://wwbm.com/images/butt_sprite.webp") 250px 0px;
+  }
+  .call {
+      background: url("https://wwbm.com/images/butt_sprite.webp") 149px 60px;
+  }
+  .call:hover {
+      background: url("https://wwbm.com/images/butt_sprite.webp") 149px 0px;
+  }
+  .zal {
+      background: url("https://wwbm.com/images/butt_sprite.webp") 0px 60px;
+  }
+  .zal:hover {
+      background: url("https://wwbm.com/images/butt_sprite.webp") 0px 0px;
+  }
+  .filter {
+      filter: brightness(40%)
+  }
+  .logo {
+      background: url('https://wwbm.com/images/logo.webp') center/contain no-repeat;
+      height:90%;
+      margin-top: -6%;
+  }
+  
+  .right {
+      flex:1;
+  }
+  
+  ol {
+    list-style: newlist;
+      list-style-position: inside;
+      padding:0;
+  }
+  
+  ol > li {
+      color: #e1a02e;
+      margin-bottom: 8px;
+      padding-left: 15px;
+  }
+  
+  .mc>p>span>span, ol > li > span {
+    color: #df3011;
+  }
+  
+  .mc>p>span>span:after ,ol > li > span:after {
+    content: '  ';
+  }
+  
+  .active {
+      background: url('https://wwbm.com/images/step_activ.png') no-repeat;
+      color: black;
+  }
+  .nz {
+      background: url('https://wwbm.com/images/step_activ.png') no-repeat;
+      color: white;
+  }
+  
+  .white {
+      color: white;
+  }
+  .bottom {
+      position: relative;
+  }
+  .level {
+      position: relative;
+      font-size: 38px;
+    top: -110px;
+    color: white;
+      text-align:center;
+      width:1024px;
+    margin: 0 auto;
+  }
+  .question {
+      background: url('https://wwbm.com/images/quest.png') center/contain no-repeat;
+      width: 1024px;
+      margin: 0 auto;
+      height: 5em;
+      padding-top: 10px;
+      color: white;
+  }
+  .question p {
+      margin: 20px 200px;
+      line-height: 18px;
+  }
+  
+  .answers {
+      width: 1024px;
+      margin: 0 auto;
+      background: url('https://wwbm.com/images/line.png') center/contain no-repeat;
+      color: #e1a02e;
+  }
+  
+  .answers p {
+      margin: 10px 20px;
+  }
+  .answers span {
+      color: white;
+  }
+  
+  .answer {
+      background: url('https://wwbm.com/images/sprite_ans.webp') 0px 0px/cover no-repeat;
+      height: 2.8em;
+      width: 35%;
+      margin-top:10px;
+      display:inline-block;
+      cursor: pointer;
+  }
+  
+  .answer:hover, .ah {
+      background: url('https://wwbm.com/images/sprite_ans.webp') 0px -53px/cover no-repeat;
+      color: white;
+  }
+  .ar {
+      background: url('https://wwbm.com/images/sprite_ans.webp') 0px -138px/cover no-repeat;
+  }
+  
+  .answer:hover span {
+      color: black;
+  }
+  
+  .a1, .a3 {
+      margin-left: 140px;
+  }
+  
+  .a2, .a4 {
+      margin-left: 20px;
+  }
+  
+  .hide {
+      visibility: hidden;
+  }
+  
+  .modal0, .modal1, .modal3 {
+      display: none;
+      width:672px;
+      height: 290px;
+      background: url('https://wwbm.com/images/form_phone.jpg');
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 18px;
+    text-align: center;
+    line-height: 38px;
+      color: white;
+  }
+  
+  .modal2 {
+      display: none;
+      width:590px;
+      height: 415px;
+      background: url('https://wwbm.com/images/form_help.jpg');
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 18px;
+    text-align: center;
+    line-height: 38px;
+      color: white;
+  }
+  
+  .mt p {
+      margin:0;
+  }
+  
+  .mc {
+      padding:30px;
+  }
+  .mc p {
+      margin: 5px 0;
+  }
+  
+  .mc2 {
+      display: flex;
+      align-items: flex-end;
+      width: 60%;
+      margin: 30px auto 60px auto;
+      height: 180px;
+  }
+  .mc2 p {
+      margin: 2px auto;
+      line-height: 18px;
+  }
+  .mc2>div {
+      flex:1;
+  }
+  .mc2>div>div {
+      width: 35px;
+      height: 100%;
+      margin: 0 auto;
+      
+  }
+  
+  .blue>div {
+      background: url('https://wwbm.com/images/help_a_strip.png');
+  }
+  .blue {
+      height: 5%;
+  }
+  .red>div {
+      background: url('https://wwbm.com/images/help_b_strip.png');
+  }
+  .red {
+      height: 80%;
+  }
+  .green>div {
+      background: url('https://wwbm.com/images/help_c_strip.png');
+  }
+  .green {
+      height: 3%;
+  }
+  .blue2>div {
+      background: url('https://wwbm.com/images/help_d_strip.png');
+  }
+  .blue2 {
+      height: 12%;
+  }
+  
+  .mb a {
+      display: inline-block;
+      width: 250px;
+      padding: 6px;
+      color: black;
+      background:#e1a02e;
+      box-shadow: inset 0 0 5px 5px gold;
+      text-decoration: none;
+  }
+  
+  .mb a:hover {
+      color: white;
+      box-shadow: inset 0 0 5px 5px gold, 0 0 5px 5px gold;
+  }
