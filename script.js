@@ -155,116 +155,116 @@ const questions = [
 		["Теллур",0]]
 	},
 	{
-		question: "Which one is true (+)?",
-		answers: [["You don't kick the ball in basketball",1],
-		["You don't hit the ball in tennis",0],
-		["You don't kick the ball in football",0],
-		["You don't jump in volleyball",0]]
+		вопрос: "Что, согласно поговорке, происходит, когда идет караван?",
+		ответ: [["Собака лает",1],
+		["Кошка мурлыкает",0],
+		["Ветер воет",0],
+		["Море волнуется",0]]
 	},
 	{
-		question: "** - OK, *** - good, **** - very good, ***** - ... ?",
-		answers: [["bad",0],
-		["easy",0],
-		["fantastic",1],
-		["different",0]]
+		ворос: "Что обычно готовят способом пашот?",
+		ответ: [["Сыр",0],
+		["Багет",0],
+		["Яйца",1],
+		["Ветчину",0]]
 	},
 	{
-		question: "A unicycle has got ... wheel(s)",
-		answers: [["five",0],
-		["three",0],
-		["two",0],
-		["one",1]]
+		вопрос: "Как зовут известную американскую певицу, автора хита «Bad Guy»?",
+		ответ: [["Бенни Айриш",0],
+		["Петти Бейлиш",0],
+		["Санни Бритиш",0],
+		["Билли Айлиш",1]]
 	},
 	{
-		question: "Choose the right word. \"very ...\"",
-		answers: [["popular",1],
-		["basketball",0],
-		["the ball",0],
-		["wheel",0]]
+		вопрос: "Оттенком какого цвета является «ниагара»?",
+		ответ: [["Синего",1],
+		["Зеленого",0],
+		["Красного",0],
+		["Черного",0]]
 	},
 	{
-		question: "Which one is right?",
-		answers: [["BAISBALL",0],
-		["BASEBOLL",0],
-		["BASEBALL",1],
-		["BASEBAAL",0]]
+		вопрос: "Какое имя было самым распространенным у шведских королей?",
+		ответ: [["Густав",0],
+		["Фредерик",0],
+		["Карл",1],
+		["Оскар",0]]
 	},
 	{
-		question: "Something you eat on your birthday",
-		answers: [["candle",0],
-		["banana",0],
-		["papaya",0],
-		["cake",1]]
+		вопрос: "Кто в начале прошлого века жил в общежитии «Корабль-прачечная» на Монмартре?",
+		ответ: [["Матросы",0],
+		["Прачки",0],
+		["Официанты",0],
+		["Художники",1]]
 	},
 	{
-		question: "Listen. What animal is this? (slide 20)",
-		answers: [["cat",0],
-		["duck",1],
-		["chicken",0],
-		["dog",0]]
+		вопрос: "Один из видов какого насекомого признали самым быстрым в мире?",
+		ответ: [["Комар",0],
+		["Слепень",1],
+		["Майский жук",0],
+		["Шершень",0]]
 	},
 	{
-		question: "Look. What colours can you see? (slide 21).",
-		answers: [["pink, green, brown",1],
-		["red, blue, yellow",0],
-		["orange, purple, black",0],
-		["white, red, pink",0]]
+		вопрос: "Флаг какого святого не является частью флага Великобритании?",
+		ответ: [["Святого Петра",1],
+		["Святого Андрея",0],
+		["Святого Патрика",0],
+		["Святого Георгия",0]]
 	},
 	{
-		question: "Look at the picture. What's their job? (slide 22)",
-		answers: [["They are farmers",0],
-		["They are doctors",0],
-		["They are builders",0],
-		["They are panda keepers",1]]
+		вопрос: "Какого романа нет у Артура Хейли?",
+		ответ: [["Аэропорт",0],
+		["Отель",0],
+		["Колесо",0],
+		["Больница",1]]
 	},
 	{
-		question: "What does farmer do?",
-		answers: [["He drives a taxi",0],
-		["He scores goals",0],
-		["He grows plants",0],
-		["He builds houses",1]]
+		вопрос: "Кто из персонажей комедии дель арте говорил на ломаном итальянском языке с сильным испанским акцентом?",
+		ответ: [["Панталоне",0],
+		["Доктор",0],
+		["Арлекин",0],
+		["Капитан",1]]
 	},
 	{
-		question: "- Is your dad a doctor? - No, he ... . He is a police officer",
-		answers: [["is",0],
-		["isn't",1],
-		["am",0],
-		["not",0]]
+		вопрос: "Кто был учредителем и председателем «Общества врачей – любителей физических упражнений и велосипедной езды»?",
+		ответ: [["Сергей Боткин",0],
+		["Иван Павлов",1],
+		["Николай Пирогов",0],
+		["Николай Склифасовский",0]]
 	},
 	{
-		question: "Look at the picture. What does he do? (slide 23)",
-		answers: [["He drives a taxi. He doesn't score goals",0],
-		["He grows olives. He doesn't grow carrots",1],
-		["He builds houses. He doesn't grow schools",0],
-		["He plays football. He doesn't play basketball",0]]
+		вопрос: "Столетие какого кинорежиссера пришлось не на 2020 год?",
+		ответ: [["Федерико Феллини",0],
+		["Лукино Висконти",1],
+		["Михаила Швейцера",0],
+		["Сергея Бондарчука",0]]
 	},
 	{
-		question: "What time do you go to bed?	",
-		answers: [["At 5 o'clock in the morning",0],
-		["At 2 o'clock in the afternoon",0],
-		["At 6 o'clock in the evening",0],
-		["At 10 o'clock in the evening",1]]
+		вопрос: "Как работает усердный и трудолюбивый человек?",
+		ответ: [["Не мудрствуя лукаво",0],
+		["Не находя себе место",0],
+		["Не ударяя в грязь лицом",0],
+		["Не покладая рук",1]]
 	},
 	{
-		question: "In the morning I have ...",
-		answers: [["lunch",0],
-		["a camera",0],
-		["breakfast",1],
-		["dinner",0]]
+		вопрос: "Как звали малышку из Зеленого города, которая понравилась Незнайке?",
+		ответ: [["Сосулька",0],
+		["Метелица",0],
+		["Снежинка",1],
+		["Пурга",0]]
 	},
 	{
-		question: "... ... do you get up?",
-		answers: [["Do you",0],
-		["What time",1],
-		["Are you",0],
-		["How much",0]]
+		вопрос: "Что рано или поздно слагает каждый депутат?",
+		ответ: [["Оды",0],
+		["Полномочия",1],
+		["Саги",0],
+		["Поэмы",0]]
 	},
 	{
-		question: "Look at the picture. What time is it? (slide 24)",
-		answers: [["It's 7 o'clock in the morning",1],
-		["It's 7 o'clock in the evening",0],
-		["It's 7 o'clock in the afternoon",0],
-		["It's 7 o'clock at night",0]]
+		вопросы: "Как часто называют лидера музыкальной группы?",
+		ответ: [["Фронтмен",1],
+		["Фронтон",0],
+		["Афронт",0],
+		["Фрондер",0]]
 	}
 ]
 
